@@ -4,10 +4,7 @@ const menuIcon = document.getElementById('menu-icon');
 
 const iconAssignments = [
 	['#navbar > div > div > a:first-child > div:first-child i', 'fa-solid fa-cookie-bite'],
-	['#navbar > div > div > div:nth-of-type(2) a i', 'fa-brands fa-whatsapp'],
-	['#navbar > div > div > div:nth-of-type(3) a i', 'fa-brands fa-whatsapp'],
 	['#menu-icon', 'fa-solid fa-bars'],
-	['#mobile-menu > div a i', 'fa-brands fa-whatsapp'],
 	['#beranda > div > div > div:first-child > div:nth-of-type(2) > a:first-child i', 'fa-solid fa-utensils'],
 	['#beranda > div > div > div:first-child > div:nth-of-type(2) > a:last-child i', 'fa-brands fa-whatsapp'],
 	['#beranda > div > div > div:first-child > div:nth-of-type(3) > div:nth-child(1) i', 'fa-solid fa-certificate'],
@@ -24,12 +21,9 @@ const iconAssignments = [
 	['#lokasi > div > div > div:first-child > div > div:nth-child(2) > i', 'fa-solid fa-clock'],
 	['#lokasi a[href*="maps.google"] i', 'fa-solid fa-map-location-dot'],
 	['#order-form .modal-footer > button[type="submit"] i', 'fa-brands fa-whatsapp'],
-	['#mobile-sticky-bar > div:first-child > div:first-child i', 'fa-solid fa-bag-shopping'],
-	['#mobile-sticky-bar > a i', 'fa-brands fa-whatsapp'],
 	['footer > div > div:first-child > div:first-child > div i', 'fa-solid fa-cookie-bite'],
 	['footer > div > div:first-child > div:last-child a:nth-child(1) i', 'fa-brands fa-instagram'],
-	['footer > div > div:first-child > div:last-child a:nth-child(2) i', 'fa-brands fa-tiktok'],
-	['footer > div > div:first-child > div:last-child a:nth-child(3) i', 'fa-brands fa-whatsapp']
+	['footer > div > div:first-child > div:last-child a:nth-child(2) i', 'fa-brands fa-tiktok']
 ];
 
 iconAssignments.forEach(([selector, classNames]) => {
